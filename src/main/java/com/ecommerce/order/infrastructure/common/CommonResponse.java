@@ -1,12 +1,4 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.common;
-
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 
 import com.ecommerce.order.infrastructure.utils.GsonUtils;
 
@@ -14,9 +6,6 @@ import lombok.Data;
 
 /**
  * Common response.
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @Data
 public class CommonResponse {

@@ -1,14 +1,14 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/order_dev?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=CTT
+    url: jdbc:mysql://localhost:3306/order_dev?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=CTT
     username: root
-    password: root
+    password: root123
   jpa:
     open-in-view: false
     show-sql: false
     hibernate:
-      ddl-auto: none #配置自动建表：updata:没有表新建，有表更新操作,控制台显示建表语句
+      ddl-auto: update #配置自动建表：updata:没有表新建，有表更新操作,控制台显示建表语句
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     properties:
       hibernate:

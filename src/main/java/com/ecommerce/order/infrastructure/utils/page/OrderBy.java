@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.utils.page;
 
 import org.apache.commons.lang.Validate;
@@ -9,9 +6,6 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 
 /**
  * Describe order by property and type (asc,desc)
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
  */
 public class OrderBy {
     public enum OrderType {

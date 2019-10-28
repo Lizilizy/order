@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order.command;
 
 import java.util.List;
@@ -16,9 +13,6 @@ import lombok.Value;
 /**
  * command 用于封装请求，一般入参大于等于3个时候使用
  * 添加@Value注解，类属性会被编译成final的，因此只有get方法，而没有set方法
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
  */
 
 @Value

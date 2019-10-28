@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.exception;
 
 import static com.google.common.collect.Maps.newHashMap;
@@ -11,9 +8,6 @@ import org.apache.commons.collections4.MapUtils;
 
 /**
  * base exception class for all business exception
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
  */
 public abstract class BaseException extends RuntimeException {
 

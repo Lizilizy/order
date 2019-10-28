@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order.model;
 
 import java.math.BigDecimal;
@@ -13,9 +10,6 @@ import lombok.Data;
 
 /**
  * 订单子项
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @Data
 @Builder

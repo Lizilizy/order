@@ -1,12 +1,5 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.exception;
 
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 public enum SystemErrorCode implements ErrorCode {
 
     /**
@@ -15,7 +8,7 @@ public enum SystemErrorCode implements ErrorCode {
     SYSTEM(1000, "系统异常"),
 
     /**
-     * 预期不会发生，实际发生的异常，防御性编程
+     * 预期不会发生，实际发生的异常
      */
     UNEXPECTED(1001, "系统繁忙"),
 

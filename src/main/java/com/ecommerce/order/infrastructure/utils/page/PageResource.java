@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.utils.page;
 
 import java.util.ArrayList;
@@ -11,11 +8,8 @@ import java.util.List;
 import org.apache.commons.lang.Validate;
 
 /**
- * Page createfromJson specified type {@code T}, this class is generally used as <b>output</b> parameter createfromJson process (web service,
+ * Page createFromJson specified type {@code T}, this class is generally used as <b>output</b> parameter createFromJson process (web service,
  * function, etc.).
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
  */
 public final class PageResource<T> {
 

@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.userinterface.controller;
 
 import static com.google.common.collect.ImmutableMap.of;
@@ -22,24 +19,19 @@ import com.ecommerce.order.product.command.CreateProductCommand;
 import com.ecommerce.order.infrastructure.repo.ProductRepository;
 
 /**
- * 卖家 controller
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
+ * 商品 controller
  */
 @RestController
 @RequestMapping(value = "/product")
 public class ProductController {
 
     @Autowired
-    private ProductRepository productRepository;
-    @Autowired
     private ProductApplicationService productApplicationService;
 
     @PostMapping
     @ResponseStatus(CREATED)
-    public Map<String, String> createOrder(@RequestBody @Valid CreateProductCommand command) {
-        return of("id", productApplicationService.createOrder(command));
+    public Map<String, String> createProduct(@RequestBody @Valid CreateProductCommand command) {
+        return of("id", productApplicationService.createProduct(command));
     }
 
 }

@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.utils.page;
 
 import java.util.List;
@@ -10,10 +7,6 @@ import org.springframework.data.domain.Page;
 
 import com.google.common.collect.Lists;
 
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 public class PageUtils {
 
     public static <T> PageResource<T> convertToPageResource(Page<T> jpaPage) {

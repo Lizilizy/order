@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.userinterface.controller;
 
 import static com.ecommerce.order.infrastructure.common.CommonResponse.success;
@@ -20,9 +17,6 @@ import com.ecommerce.order.infrastructure.utils.page.PageResource;
 
 /**
  * 卖家 controller
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @RestController
 @RequestMapping(value = "/seller/orders")

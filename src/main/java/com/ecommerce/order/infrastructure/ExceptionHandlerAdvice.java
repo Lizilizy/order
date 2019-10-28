@@ -18,10 +18,6 @@ import com.google.common.base.Strings;
 
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 @Slf4j
 @ControllerAdvice
 public class ExceptionHandlerAdvice {

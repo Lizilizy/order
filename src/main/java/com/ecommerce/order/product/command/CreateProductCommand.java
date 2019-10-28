@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.product.command;
 
 import java.math.BigDecimal;
@@ -11,11 +8,6 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 import lombok.Value;
-
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 
 @Value
 public class CreateProductCommand {

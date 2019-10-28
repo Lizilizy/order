@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.utils;
 
 import java.lang.reflect.Type;
@@ -15,10 +12,6 @@ import com.google.gson.GsonBuilder;
 
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 @Slf4j
 public class GsonUtils {
     private static Gson gson = new GsonBuilder().create();

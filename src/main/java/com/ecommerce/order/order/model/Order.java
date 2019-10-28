@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order.model;
 
 import static java.math.BigDecimal.ZERO;
@@ -25,10 +22,7 @@ import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * 订单 领域类
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
+ * 订单类
  */
 @Data
 @Builder
@@ -105,7 +99,7 @@ public class Order {
     /**
      * 搜索 指定商品
      */
-    private OrderItem searchOrderItem(String productId) {
+    public OrderItem searchOrderItem(String productId) {
         return items.stream()
                 .filter(item -> item.getProductId().equals(productId))
                 .findFirst()
@@ -120,6 +114,8 @@ public class Order {
             throw new OrderCannotBeModifiedException(this.orderId);
         }
         this.address = address;
+        log.info("[change order delivering address], orderId:{}, address from {} to {}",
+                this.getOrderId(), this.getAddress().toString(), address.toString());
     }
 
     /**
@@ -134,6 +130,7 @@ public class Order {
             throw new PaidPriceNotSameWithOrderPriceException(orderId);
         }
         this.status = OrderStatus.PAID;
+        log.info("[pay the order], orderId:{} is paid",this.getOrderId());
     }
 
     /**
@@ -145,6 +142,7 @@ public class Order {
             throw new UnexpectedException("when deliver goods , The order status is not PAID");
         }
         this.status = OrderStatus.DELIVERED;
+        log.info("[deliver the order], orderId:{} is delivered",this.getOrderId());
     }
 
     /**
@@ -156,6 +154,7 @@ public class Order {
             throw new UnexpectedException("when confirm Receipt , The order status is not DELIVERED");
         }
         this.status = OrderStatus.RECEIVED;
+        log.info("[receive the order], orderId:{} is received",this.getOrderId());
     }
 
     /**
@@ -201,9 +200,5 @@ public class Order {
         orderEntity.setCreateTime(createdAt == null ? new Date() : createdAt);
         orderEntity.setUpdateTime(new Date());
         return orderEntity;
-    }
-
-    public List<ProductPurchaseItem> toProductPurchaseItem() {
-        return items.stream().map(OrderItem::tpProductPurchaseItem).collect(Collectors.toList());
     }
 }

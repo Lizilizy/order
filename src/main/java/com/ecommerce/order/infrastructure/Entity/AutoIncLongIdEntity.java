@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.Entity;
 
 import javax.persistence.GeneratedValue;
@@ -10,9 +7,6 @@ import javax.persistence.MappedSuperclass;
 
 /**
  * ID use auto increase mechanism
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @MappedSuperclass
 public abstract class AutoIncLongIdEntity {

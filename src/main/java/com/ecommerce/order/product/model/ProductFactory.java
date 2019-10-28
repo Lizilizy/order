@@ -1,16 +1,9 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.product.model;
 
 import java.math.BigDecimal;
 
 import org.springframework.stereotype.Component;
 
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 @Component
 public class ProductFactory {
 

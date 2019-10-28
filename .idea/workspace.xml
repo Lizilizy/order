@@ -1,107 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="order:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="84a4f209-cf2f-44d8-8a74-c0adb5e6a15a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/ExceptionHandlerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/ExceptionHandlerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/common/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/common/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/SystemErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/SystemErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/UnexpectedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/UnexpectedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/GsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/GsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/SnowFlake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/SnowFlake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/UuidGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/UuidGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/OrderBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/OrderBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/PageResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/PageResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/OrderApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/OrderApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeAddressCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeAddressCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeProductCountCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeProductCountCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/CreateOrderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/CreateOrderCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/OrderItemCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/OrderItemCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/PayOrderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/PayOrderCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/OrderCannotBeModifiedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/OrderCannotBeModifiedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/OrderNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/OrderNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/PaidPriceNotSameWithOrderPriceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/PaidPriceNotSameWithOrderPriceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/ProductNotInOrderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/ProductNotInOrderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderListRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderListRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderRepresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderRepresentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderRepresentationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderRepresentationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/ProductApplicationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/ProductApplicationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/command/CreateProductCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/command/CreateProductCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductPurchaseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductPurchaseItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/BuyerOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/BuyerOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/SellerOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/SellerOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/1.0.0/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/1.0.0/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-online.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdTraceableEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/OrderEntity$OrderEntityBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/OrderEntity$OrderEntityBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/OrderEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/Entity/OrderEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/ExceptionHandlerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/ExceptionHandlerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/cache/CacheService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/common/CommonResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/common/CommonResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/BaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/BaseException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/ServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/ServiceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/SystemErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/SystemErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/UnexpectedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/exception/UnexpectedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/repo/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/repo/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/ConcurrencyTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/GsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/GsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/HttpUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/id/SnowFlake.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/id/SnowFlake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/id/UuidGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/id/UuidGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/OrderBy$OrderType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/OrderBy$OrderType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/OrderBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/OrderBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/PageResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/PageResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/PageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/infrastructure/utils/page/PageUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/OrderApplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/OrderApplicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/ChangeAddressCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/ChangeAddressCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/ChangeProductCountCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/ChangeProductCountCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/CreateOrderCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/CreateOrderCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/OrderItemCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/OrderItemCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/PayOrderCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/PayOrderCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/command/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/OrderCannotBeModifiedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/OrderCannotBeModifiedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/OrderNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/OrderNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/PaidPriceNotSameWithOrderPriceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/PaidPriceNotSameWithOrderPriceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/ProductNotInOrderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/exception/ProductNotInOrderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/Order$OrderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/Order$OrderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderDetail$OrderDetailBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderDetail$OrderDetailBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderIdGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderIdGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderItem$OrderItemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderItem$OrderItemBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/model/OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderListRepresentation$OrderListRepresentationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderListRepresentation$OrderListRepresentationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderListRepresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderListRepresentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderRepresentation$OrderRepresentationBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderRepresentation$OrderRepresentationBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderRepresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/representation/OrderRepresentation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/service/OrderPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/service/OrderPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/service/OrderRepresentationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/service/OrderRepresentationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/order/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/ProductApplicationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/ProductApplicationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/Service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/Service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/command/CreateProductCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/command/CreateProductCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/command/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/Product$ProductBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/ProductFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/ProductFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/ProductPurchaseItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/product/model/ProductPurchaseItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/BuyerOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/BuyerOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/SellerOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/SellerOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecommerce/order/userinterface/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql/1.0.0/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/1.0.0/init.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,6 +136,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any converted="true">
@@ -150,28 +191,91 @@
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/order.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/BuyerOrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/OrderApplicationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/SellerOrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/CreateOrderCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sql</find>
+      <find>product_table</find>
+      <find>锁</find>
+      <find>@version</find>
+      <find>Xu Zhijian, &lt;xuzhijian@baidu.com&gt;</find>
+      <find>@Value</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Yao Yao, &lt;liz_one@163.com</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,7 +283,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/page/OrderBy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/UuidGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/SnowFlake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/UnexpectedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/SystemErrorCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ServiceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ErrorCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/BaseException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/common/CommonResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/GsonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeAddressCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeProductCountCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/CreateOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/OrderItemCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/PayOrderCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/OrderCannotBeModifiedException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/OrderNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/PaidPriceNotSameWithOrderPriceException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/exception/ProductNotInOrderException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderErrorCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderListRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderRepresentation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderPaymentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderRepresentationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/command/CreateProductCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/command/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductPurchaseItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/ProductApplicationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderIdGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/SellerOrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/Service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/OrderApplicationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/BuyerOrderController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Order.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/ProductController.java" />
       </list>
     </option>
   </component>
@@ -201,11 +355,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-140" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="180" />
+    <option name="y" value="112" />
+    <option name="width" value="1080" />
+    <option name="height" value="676" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,37 +367,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order2" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order2" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="order2" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,6 +439,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -267,7 +449,10 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.JAVA" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -281,13 +466,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.OrderApplication">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrencyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.order.infrastructure.utils.ConcurrencyTest" />
+      <module name="order" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.order.infrastructure.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.order.product.command.Test" />
+      <module name="order" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.order.product.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.order.order.command.Test" />
+      <module name="order" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ecommerce.order.order.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,6 +526,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -318,6 +546,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -337,6 +566,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConcurrencyTest" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -349,73 +585,413 @@
       <option name="presentableId" value="Default" />
       <updated>1572093648375</updated>
       <workItem from="1572093649765" duration="246000" />
+      <workItem from="1572094861030" duration="3044000" />
+      <workItem from="1572098394384" duration="588000" />
+      <workItem from="1572099012130" duration="25551000" />
+      <workItem from="1572192653852" duration="3192000" />
+      <workItem from="1572266373744" duration="8315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246000" />
+    <option name="totallyTimeSpent" value="40936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-140" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21199143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33373493" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.32976446" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info anchor="right" id="Database" weight="0.32976446" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4253012" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32976446" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32976446" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="75">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderListRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/representation/OrderRepresentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderPaymentService.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/service/OrderRepresentationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/command/CreateProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductPurchaseItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-online.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ecommerce/order/OrderApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/repo/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#68#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/exception/SystemErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/OrderErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/ChangeAddressCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/PayOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/ProductApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/ProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/Entity/AutoIncLongIdEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/Service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/SellerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/command/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/product/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/model/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2224">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/OrderApplicationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="127" column="19" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/order/command/CreateOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/1.0.0/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/UuidGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/id/SnowFlake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/BuyerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1422" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1068" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/infrastructure/utils/ConcurrencyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/Baidu.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ecommerce/order/userinterface/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>order:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="Copyright.UI">
         <settings>
           <last-edited>Baidu</last-edited>
@@ -428,9 +1004,68 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|order</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8 (2)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

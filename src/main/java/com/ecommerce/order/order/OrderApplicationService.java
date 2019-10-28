@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order;
 
 import java.util.List;
@@ -32,9 +29,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * order application service
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @Service
 @Slf4j
@@ -51,7 +45,7 @@ public class OrderApplicationService {
     private ProductService productService;
 
     /**
-     * 查询指定ID的询价单
+     * 查询指定ID的订单
      */
     @Transactional
     public String byOrderId(String orderId) {
@@ -65,6 +59,12 @@ public class OrderApplicationService {
     @Transactional
     public void changeProductCount(String orderId, ChangeProductCountCommand command) {
         Order order = orderRepository.byId(orderId);
+        OrderItem orderItem = order.searchOrderItem(command.getProductId());
+        int originalCount = orderItem.getCount();
+        boolean purchase = productService.purchaseSingle(command.getProductId(), command.getCount()-originalCount);
+        if (!purchase) {
+            throw new UnexpectedException();
+        }
         order.changeProductCount(command.getProductId(), command.getCount());
         orderRepository.save(order.toOrderEntity());
     }

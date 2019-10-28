@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.repo;
 
 import org.springframework.data.jpa.repository.Modifying;
@@ -11,8 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.ecommerce.order.product.model.Product;
 
 /**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
+ * product repository
  */
 public interface ProductRepository extends CrudRepository<Product, Long> {
 

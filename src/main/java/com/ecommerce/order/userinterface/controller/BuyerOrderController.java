@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.userinterface.controller;
 
 import static com.ecommerce.order.infrastructure.common.CommonResponse.success;
@@ -32,9 +29,6 @@ import com.ecommerce.order.infrastructure.utils.page.PageResource;
 
 /**
  * 买家 controller
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @RestController
 @RequestMapping(value = "/buyer/orders")
@@ -72,18 +66,21 @@ public class BuyerOrderController {
     }
 
     @PostMapping("/{orderId}/address")
-    public void changeAddress(@PathVariable(name = "orderId") String orderId,
+    public String changeAddress(@PathVariable(name = "orderId") String orderId,
                               @RequestBody @Valid ChangeAddressCommand command) {
         applicationService.changeAddressDetail(orderId, command);
+        return "change address success";
     }
 
     @PostMapping("/{orderId}/payment")
-    public void pay(@PathVariable(name = "orderId") String orderId, @RequestBody @Valid PayOrderCommand command) {
+    public String pay(@PathVariable(name = "orderId") String orderId, @RequestBody @Valid PayOrderCommand command) {
         applicationService.pay(orderId, command);
+        return "payment success";
     }
 
     @PostMapping("/{orderId}/received")
-    public void confirmReceipt(@PathVariable(name = "orderId") String orderId) {
+    public String confirmReceipt(@PathVariable(name = "orderId") String orderId) {
         applicationService.confirmReceipt(orderId);
+        return "confirm receipt success";
     }
 }

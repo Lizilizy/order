@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order.model;
 
 import lombok.AccessLevel;
@@ -9,9 +6,6 @@ import lombok.NoArgsConstructor;
 
 /**
  * 地址类
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 @Data
 @NoArgsConstructor(access = AccessLevel.PRIVATE)

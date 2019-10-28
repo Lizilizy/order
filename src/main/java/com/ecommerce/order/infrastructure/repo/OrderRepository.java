@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.infrastructure.repo;
 
 import org.springframework.data.domain.Page;
@@ -13,9 +10,6 @@ import com.ecommerce.order.infrastructure.exception.ServiceException;
 
 /**
  * order Repository
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-25
  */
 public interface OrderRepository extends CrudRepository<OrderEntity, Long> {
 

@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order.command;
 
 import static com.google.common.collect.Lists.newArrayList;
@@ -10,10 +7,6 @@ import java.math.BigDecimal;
 import com.ecommerce.order.order.model.Address;
 import com.ecommerce.order.infrastructure.utils.GsonUtils;
 
-/**
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
- */
 public class Test {
     public static void main(String[] args) {
 

@@ -1,6 +1,3 @@
-/*
- * Copyright (C) 2019 Baidu, Inc. All Rights Reserved.
- */
 package com.ecommerce.order.order.service;
 
 import java.util.List;
@@ -29,9 +26,6 @@ import lombok.extern.slf4j.Slf4j;
  * order representation service
  * <p>
  * todo::入口处统一 身份校验
- *
- * @author Xu Zhijian, <xuzhijian@baidu.com>
- * @since 2019-10-26
  */
 @Component
 @Slf4j
@@ -53,7 +47,6 @@ public class OrderRepresentationService {
         if (orderEntity == null) {
             throw new OrderNotFoundException(orderId);
         }
-        // 优化点：对于已经走完流程(确认收货)的 订单可以进行 查询缓存
         return Order.createFromDB(orderEntity).toRepresentation();
     }
 
